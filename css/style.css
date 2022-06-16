@@ -2,6 +2,7 @@ body {
     color: seagreen;
     margin: 0;
     font-family: "Press Start 2P";
+    background-color: #00A651;
 }
 
 .classd {
@@ -20,12 +21,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .shead {
     color: white;
     display: inline;
     padding: 0;
+    padding: 10px;
 }
 
 .logo-text {
@@ -33,6 +36,10 @@ body {
     max-width: 250px;
     margin: 0;
     margin-left: 10px;
+}
+
+.logo-text:hover {
+    background-color: blueviolet;
 }
 
 .hui {
@@ -45,12 +52,8 @@ body {
     height: 31px;
 }
 
-.hui img:hover{
-    color: black;
-}
-
-li {
-    display: inline;
+.hui img:hover {
+    background-color: darkgoldenrod;
 }
 
 .p {
@@ -68,7 +71,10 @@ li {
 .menytyp {
     margin-left: 20px;
     cursor: pointer;
-    ;
+    display: inline;
+}
+.menytyp:hover{
+    background-color: darkgoldenrod;
 }
 
 .klj {
@@ -93,4 +99,72 @@ h1 {
     font-family: "Press Start 2P";
     border-radius: 11px;
     font-size: 39px;
+    padding: 10px;
+}
+
+h1:hover {
+    background-color: darkgoldenrod;
+    color: white;
+}
+
+.dfg {
+    color: white;
+}
+
+.dfg:hover {
+    color: black;
+}
+
+.programing {
+    padding: 30px 400px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1070px;
+    margin: auto;
+}
+
+.progtext {
+    color: white;
+    padding: 30px;
+}
+
+.e{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.aboutme{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1070px;
+    margin: auto;
+}
+
+.fgf{
+    padding-left: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1070px;
+    margin: auto;
+}
+
+.progt {
+    color: white;
+    padding: 300px;
+}
+
+.hre {
+    padding: 30px 40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1070px;
+    margin: auto;
+}
 }
