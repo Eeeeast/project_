@@ -1,0 +1,96 @@
+body {
+    color: seagreen;
+    margin: 0;
+    font-family: "Press Start 2P";
+}
+
+.classd {
+    font-size: 120%;
+    color: firebrick;
+}
+
+.classf {
+    font-size: 120%;
+    color: navy;
+}
+
+.seactionhead {
+    background-color: #00A651;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shead {
+    color: white;
+    display: inline;
+    padding: 0;
+}
+
+.logo-text {
+    color: white;
+    max-width: 250px;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.hui {
+    display: flex;
+    cursor: pointer;
+}
+
+.hui img {
+    width: 255px;
+    height: 31px;
+}
+
+.hui img:hover{
+    color: black;
+}
+
+li {
+    display: inline;
+}
+
+.p {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    color: white;
+    display: inline;
+    padding: 0;
+    margin-right: 20%;
+}
+
+.menytyp {
+    margin-left: 20px;
+    cursor: pointer;
+    ;
+}
+
+.klj {
+    border-right: solid 2px white;
+    height: 31px;
+    margin: 0;
+    color: #00A651;
+}
+
+.banner {
+    height: 1000px;
+    background-image: url("../images/banner\ 1.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Press Start 2P";
+    background-position: fixed;
+}
+
+h1 {
+    background-color: white;
+    font-family: "Press Start 2P";
+    border-radius: 11px;
+    font-size: 39px;
+}
